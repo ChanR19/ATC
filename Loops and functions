@@ -1,0 +1,27 @@
+#Review of Last time:
+
+#Make a program that will take a password from the console and prompt "Enter your password", and a name and prompt "Enter your name" (use the input() function). Then, using an if statement, if the password is "scrantonprep" (Use the == operator) print "Welcome back, (name)" If not, print a rejection statement. Remeber you can store your inputs in variables.
+
+#Make a program that will prompt and take a username and password from the console. If the username is "bob" AND the password is "scrantonprep", print a secret message (Use the and operator in the if statement, or nest an if statement). If not, print a rejection statement.
+
+#(This is an AP Computer Science question, so don't judge)Given the variable prettiness, if prettiness is greather than or equal to 8 (Use the >= operator), print "Yes". If the pretiness is equal to 7, print "Maybe" (TIP: should use the elif operator). If it is less than or equal to 6 (Use the <= operator), print "No".
+
+#Now:
+#Tell them to print Hi 5 times
+print("Hi")
+print("Hi")
+print("Hi")
+print("Hi")
+print("Hi")
+
+#Now for loop:
+for i in range(5):
+  print("Hi")
+
+#Give an exercise? Make a program that will ask for a name and display "Hello, (name)" 20 times.
+
+#Go over i
+for i in range(5):
+  print(i)
+
+#While loop- for for loops, you know how many times you loop. With while loops, you don't know how many times you loop.
