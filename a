@@ -12,7 +12,7 @@ print("hunt: -3 food, -1 water, 50% chance to get 10 food, 20% chance of 1 perso
 print("water: Get 10 water. 30% chance of 1 person dying")
 print("steal: 20% chance to get 50 food and 20 water. 50% chance of 2 people dying")
 print("execute: execute 1 person to conserve resources")
-print("cannibalize: cannibalize 1 person to get 20 food, but 75% chance of it backfiring, losing 2 people")
+print("cannibalize: cannibalize 1 person to get 50 food and 50 water, but 75% chance of it backfiring, losing 2 people")
 
 distance = 0
 food = 110
@@ -67,7 +67,8 @@ while(poorPeople > 0 and distance < 100):
       poorPeople -= 2
       print("they ran away from you")
     else: 
-      food += 20
+      food += 50
+      water += 50
       poorPeople -= 1
       print("you ate a human")
   if(command == "execute"):
